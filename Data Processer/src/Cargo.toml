@@ -1,0 +1,17 @@
+[package]
+name = "data_processing"
+version = "0.1.0"
+edition = "2023"
+
+[dependencies]
+
+[dependencies.rocket]
+version = "0.5.0"
+features = ["json"]
+
+[dependencies.rocket-sync-db-pools]
+version = "0.4.0"
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]
